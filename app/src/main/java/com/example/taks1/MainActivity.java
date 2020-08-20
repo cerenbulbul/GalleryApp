@@ -47,7 +47,12 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout line13 = findViewById(R.id.line13);
         LinearLayout line14 = findViewById(R.id.line14);
 
-        line1.setOnClickListener((View.OnClickListener) this);
+        line1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity();
+            }
+        });
 
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.inflateMenu(R.menu.toolbar_menu);

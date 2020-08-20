@@ -15,6 +15,7 @@ public class listPhotos extends AppCompatActivity {
         setContentView(R.layout.activity_list_photos);
 
         gridView = (GridView) findViewById(R.id.gridView);
+        gridView.setAdapter(new imageAdapter(this));
 
     }
 }
