@@ -329,40 +329,14 @@
                 <ImageView
                     android:layout_width="130dp"
                     android:layout_height="130dp"
-                    android:src="@drawable/image11"></ImageView>
+                    android:src="@drawable/image12"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFF"
                     android:layout_gravity="left"
                     android:layout_marginLeft="10dp"
-                    android:text="Wallpaper"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFF"
-                    android:layout_gravity="left"
-                    android:layout_marginLeft="10dp"
-                    android:text="43 Media"></TextView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="130dp"
-                android:layout_height="180dp"
-                android:orientation="vertical"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:src="@drawable/image11"></ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFF"
-                    android:layout_gravity="left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Wallpaper"></TextView>
+                    android:text="Instagram"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -381,14 +355,40 @@
                 <ImageView
                     android:layout_width="130dp"
                     android:layout_height="130dp"
-                    android:src="@drawable/image11"></ImageView>
+                    android:src="@drawable/image13"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFF"
                     android:layout_gravity="left"
                     android:layout_marginLeft="10dp"
-                    android:text="Wallpaper"></TextView>
+                    android:text="Snapchat"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="43 Media"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/image14"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Background"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
