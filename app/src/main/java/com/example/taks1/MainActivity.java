@@ -11,6 +11,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
@@ -26,26 +28,27 @@ import static android.widget.Toast.LENGTH_SHORT;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     GridView gridView;
+    LinearLayout line1, line2, line3, line4, line5,line6,line7,line8,line9,line10,line11,line12,line13,line14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout line1 = findViewById(R.id.line1);
-        LinearLayout line2 = findViewById(R.id.line2);
-        LinearLayout line3 = findViewById(R.id.line3);
-        LinearLayout line4 = findViewById(R.id.line4);
-        LinearLayout line5 = findViewById(R.id.line5);
-        LinearLayout line6 = findViewById(R.id.line6);
-        LinearLayout line7 = findViewById(R.id.line7);
-        LinearLayout line8 = findViewById(R.id.line8);
-        LinearLayout line9 = findViewById(R.id.line9);
-        LinearLayout line10 = findViewById(R.id.line10);
-        LinearLayout line11 = findViewById(R.id.line11);
-        LinearLayout line12 = findViewById(R.id.line12);
-        LinearLayout line13 = findViewById(R.id.line13);
-        LinearLayout line14 = findViewById(R.id.line14);
+        line1 = findViewById(R.id.line1);
+        line2 = findViewById(R.id.line2);
+        line3 = findViewById(R.id.line3);
+        line4 = findViewById(R.id.line4);
+        line5 = findViewById(R.id.line5);
+        line6 = findViewById(R.id.line6);
+        line7 = findViewById(R.id.line7);
+        line8 = findViewById(R.id.line8);
+        line9 = findViewById(R.id.line9);
+        line10 = findViewById(R.id.line10);
+        line11 = findViewById(R.id.line11);
+        line12 = findViewById(R.id.line12);
+        line13 = findViewById(R.id.line13);
+        line14 = findViewById(R.id.line14);
 
         line1.setOnClickListener(MainActivity.this);
         line2.setOnClickListener(MainActivity.this);
@@ -61,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         line12.setOnClickListener(MainActivity.this);
         line13.setOnClickListener(MainActivity.this);
         line14.setOnClickListener(MainActivity.this);
+
 
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.inflateMenu(R.menu.toolbar_menu);
@@ -141,7 +145,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.line14:
                 openActivity("Background");
                 break;
-
         }
     }
 }
