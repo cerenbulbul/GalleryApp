@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  Main page <br /><br />                 Main Page  <br /><br />              Main Page Menu Bar
+  Main page<space> Main Page <space>Main Page Menu Bar
   </p>
 
 <p align="center">
