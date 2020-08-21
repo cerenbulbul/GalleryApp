@@ -23,7 +23,7 @@ import android.widget.Toolbar.OnMenuItemClickListener;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     GridView gridView;
 
@@ -47,12 +47,20 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout line13 = findViewById(R.id.line13);
         LinearLayout line14 = findViewById(R.id.line14);
 
-        line1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity();
-            }
-        });
+        line1.setOnClickListener(MainActivity.this);
+        line2.setOnClickListener(MainActivity.this);
+        line3.setOnClickListener(MainActivity.this);
+        line4.setOnClickListener(MainActivity.this);
+        line5.setOnClickListener(MainActivity.this);
+        line6.setOnClickListener(MainActivity.this);
+        line7.setOnClickListener(MainActivity.this);
+        line8.setOnClickListener(MainActivity.this);
+        line9.setOnClickListener(MainActivity.this);
+        line10.setOnClickListener(MainActivity.this);
+        line11.setOnClickListener(MainActivity.this);
+        line12.setOnClickListener(MainActivity.this);
+        line13.setOnClickListener(MainActivity.this);
+        line14.setOnClickListener(MainActivity.this);
 
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.inflateMenu(R.menu.toolbar_menu);
@@ -75,19 +83,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void onClick(View v) {
-        switch(v.getId()) {
-            case R.id.line1:
-                openActivity();
-                break;
-            case R.id.line2:
-                openActivity();
-                break;
-        }
-    }
 
-    public void openActivity(){
+    public void openActivity(String text) {
         Intent intent = new Intent(this, listPhotos.class);
+        intent.putExtra("text", text);
         startActivity(intent);
     }
 
@@ -96,7 +95,54 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.toolbar_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.line1:
+                openActivity("Camera");
+                break;
+            case R.id.line2:
+                openActivity("Whatsapp");
+                break;
+            case R.id.line3:
+                openActivity("Screenshots");
+                break;
+            case R.id.line4:
+                openActivity("Telegram");
+                break;
+            case R.id.line5:
+                openActivity("Whatsapp");
+                break;
+            case R.id.line6:
+                openActivity("Download");
+                break;
+            case R.id.line7:
+                openActivity("Whatsapp");
+                break;
+            case R.id.line8:
+                openActivity("Reddit");
+                break;
+            case R.id.line9:
+                openActivity("O");
+                break;
+            case R.id.line10:
+                openActivity("OpenCamera");
+                break;
+            case R.id.line11:
+                openActivity("Wallpaper");
+                break;
+            case R.id.line12:
+                openActivity("Instagram");
+                break;
+            case R.id.line13:
+                openActivity("Snapchat");
+                break;
+            case R.id.line14:
+                openActivity("Background");
+                break;
+
+        }
+    }
 }
-
-
 

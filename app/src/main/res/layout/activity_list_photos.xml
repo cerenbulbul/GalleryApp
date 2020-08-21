@@ -15,9 +15,10 @@
         android:orientation="horizontal"
         android:background="#000">
         <TextView
+            android:id="@+id/header_text"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Galery"
+            android:text="a"
             android:textStyle="bold"
             android:textColor="#FFF"
             android:textSize="25sp"

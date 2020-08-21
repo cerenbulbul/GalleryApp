@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.TextView;
 
 public class listPhotos extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class listPhotos extends AppCompatActivity {
         setContentView(R.layout.activity_list_photos);
 
         gridView = (GridView) findViewById(R.id.gridView);
+        TextView header_text = (TextView) findViewById(R.id.header_text);
         gridView.setAdapter(new imageAdapter(this));
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -27,6 +29,10 @@ public class listPhotos extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Intent i = getIntent();
+        String text = i.getExtras().getString("text");
+        header_text.setText(text);
 
     }
 }
