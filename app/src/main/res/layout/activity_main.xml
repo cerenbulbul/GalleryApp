@@ -45,16 +45,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
                     android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:text="Camera"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
                     android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:text="5 Media"></TextView>
             </LinearLayout>
 
@@ -73,15 +77,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Whatsapp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="10 Media"></TextView>
             </LinearLayout>
@@ -100,15 +108,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Screenshots"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="15 Media"></TextView>
             </LinearLayout>
@@ -127,15 +139,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Telegram"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="23 Media"></TextView>
             </LinearLayout>
@@ -154,15 +170,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Whatsapp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="32 Media"></TextView>
             </LinearLayout>
@@ -181,15 +201,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Download"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
@@ -208,15 +232,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Whatsapp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="24 Media"></TextView>
             </LinearLayout>
@@ -235,15 +263,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Reddit"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
@@ -262,15 +294,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="O"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="24 Media"></TextView>
             </LinearLayout>
@@ -289,15 +325,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="OpenCamera"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="3 Media"></TextView>
             </LinearLayout>
@@ -316,15 +356,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Wallpaper"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
@@ -344,15 +388,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Instagram"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
@@ -372,15 +420,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Snapchat"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
@@ -400,15 +452,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="Background"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#FFF"
+                    android:textColor="#D6D1D1"
                     android:layout_gravity="left"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
                     android:layout_marginLeft="10dp"
                     android:text="43 Media"></TextView>
             </LinearLayout>
