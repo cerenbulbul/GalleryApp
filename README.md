@@ -52,7 +52,7 @@ The first 3 images below are on the main page. Pictures 1 and 2 show the albums 
   <img src="https://user-images.githubusercontent.com/36292743/90871802-81a22f00-e350-11ea-8f5e-8cd5b0337d1b.jpeg" width="200" height="400">  <img src="https://user-images.githubusercontent.com/36292743/90871783-77803080-e350-11ea-8781-4ee7bcd3b01f.jpeg" width="200" height="400">  <img src="https://user-images.githubusercontent.com/36292743/90871746-67685100-e350-11ea-897a-aea34346cc76.jpeg" width="200" height="400">
 </p>
 <p align="center">
-  Main page &nbsp &nbsp &nbsp Main Page &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp Main Page Menu Bar
+  Main page &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Main Page &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp Main Page Menu Bar
 </p>
 
 <p align="center">
