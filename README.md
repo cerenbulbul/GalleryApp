@@ -70,7 +70,7 @@ The first 3 images below are on the main page. Pictures 1 and 2 show the albums 
 ![galleryApp](https://user-images.githubusercontent.com/36292743/90950908-d30ef480-e40a-11ea-916b-ebd30e7b109e.gif)
 
 
-
+**Hint!** While I was making the application, I did not fork from any of the github repos. Because, since the new version of the android studio application has been released (AndroidX), it gets a lot of errors while running low version applications.
 
 
 
